@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
         playsInline
         className="absolute z-0 w-auto min-w-full min-h-full max-w-none object-cover"
       >
-        <source src="videos/4324072-uhd_2560_1440_24fps.mp4" type="video/mp4" />
+        <source src="/prote--o-cat-dica-brasil/videos/4324072-uhd_2560_1440_24fps.mp4" type="video/mp4" />
         Seu navegador não suporta a tag de vídeo.
       </video>
       <div className="absolute inset-0 bg-slate-900/60"></div>
