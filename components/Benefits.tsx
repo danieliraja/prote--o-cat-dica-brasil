@@ -50,7 +50,7 @@ const Benefits: React.FC = () => {
           </div>
           <div className="lg:w-1/2 mt-10 lg:mt-0 animate-on-scroll" style={{'--animation-delay': `200ms`} as React.CSSProperties}>
             <img 
-              src="https://images.unsplash.com/photo-1621944519912-85018d79677e?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3"
+              src="https://images.unsplash.com/photo-1542274368-443d694d79aa?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Industrial pipeline with cathodic protection system" 
               className="rounded-xl shadow-2xl w-full h-full object-cover max-h-[700px]"
             />

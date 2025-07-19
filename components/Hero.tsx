@@ -7,16 +7,8 @@ const Hero: React.FC = () => {
       id="home" 
       className="relative h-screen flex items-center justify-center text-white overflow-hidden"
     >
-      <video 
-        autoPlay 
-        loop 
-        muted 
-        playsInline
-        className="absolute z-0 w-auto min-w-full min-h-full max-w-none object-cover"
-      >
-        <source src="/prote--o-cat-dica-brasil/videos/4324072-uhd_2560_1440_24fps.mp4" type="video/mp4" />
-        Seu navegador não suporta a tag de vídeo.
-      </video>
+      <img src="https://images.unsplash.com/photo-1735910525378-57a815894baa?q=80&w=1071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="absolute inset-0 object-cover w-full h-full" alt="" />
+      
       <div className="absolute inset-0 bg-slate-900/60"></div>
       <div className="relative z-10 text-center px-4 flex flex-col items-center">
         <div className="animate-on-scroll is-visible">
